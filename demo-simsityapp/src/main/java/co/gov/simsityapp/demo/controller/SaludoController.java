@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SaludoController {
  @GetMapping
  public String saludo(@RequestParam("name") String name){
-  return String.format(" Hola %s", name);
+  return String.format(" Su dato ha sido procesado Sr/a: %s", name);
  }
 }
