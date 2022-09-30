@@ -877,19 +877,19 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/api/transito" method="post">
+        <form id="form_Transito">
           <div class="mb-3">
-            <label for="cedula" class="form-label">Ingrese su cedula</label>
-            <input type="text" class="form-control" id="cedula_Transito" aria-describedby="emailHelp">
+            <label for="cedula" class="form-label" >Ingrese su cedula</label>
+            <input type="text" class="form-control" id="cedula_Transito" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text">El ingreso de sus datos es confidencial</div>
           </div>
       
-          <div class="mb-3 form-check">
+          <div class="mb-1 form-check">
             <input type="checkbox" class="form-check-input" id="Transito_check">
             <label class="form-check-label" for="Transito_check">¿Nesecitas Ambulancia?</label>
           </div>
-          <div class="mb-3 form-check">
-            <input type="hidden"  id="Longitud_Latitud_1">
+          <div class="">
+            <input type="hidden" class="Longitud_Value">
             
           </div>
 
@@ -920,22 +920,22 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/api/bomberos" method="post">
+        <form id="form_Bomberos">
           <div class="mb-3">
             <label for="cedula_Bomberos" class="form-label">Ingrese su cedula</label>
-            <input type="text" class="form-control" id="cedula_Bomberos" aria-describedby="emailHelp2">
+            <input type="text" class="form-control" id="cedula_Bomberos" aria-describedby="emailHelp2" required>
             <div id="emailHelp2" class="form-text">El ingreso de sus datos es confidencial</div>
           </div>
           <div class="mb-3">
             <label for="Direccion_Bomberos" class="form-label">Direccion</label>
             <input type="text" class="form-control" id="Direccion_Bomberos">
           </div>
-          <div class="mb-3 form-check">
+          <div class="mb-1 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck2">
             <label class="form-check-label" for="exampleCheck2">¿Nesecitas Ambulancia?</label>
           </div>
-          <div class="mb-3 form-check">
-            <input type="hidden"  id="Longitud_Latitud_2">
+          <div class="">
+            <input type="hidden"  class="Longitud_Value">
             
           </div>
 
@@ -966,22 +966,22 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="/api/medico" method="post">
+        <form id="form_Medico">
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Ingrese su cedula</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             <div id="emailHelp" class="form-text">El ingreso de sus datos es confidencial</div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword3" class="form-label">Direccion</label>
             <input type="text" class="form-control" id="exampleInputPassword3">
           </div>
-          <div class="mb-3 form-check">
+          <div class="mb-1 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">¿Nesecitas Ambulancia?</label>
           </div>
-          <div class="mb-3 form-check">
-            <input type="hidden"  id="Longitud_Latitud_3">
+          <div class="">
+            <input type="hidden"  class="Longitud_Value">
             
           </div>
 
