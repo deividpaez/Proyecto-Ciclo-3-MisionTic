@@ -488,17 +488,17 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #d2d2d2;
+  color: #ffffff;
 }
 .gray{
-  color: #2c4964 !important;
-  text-shadow: -3px 0px 6px #eaeaea;
+  color: #ffffff !important;
+  text-shadow: -3px 0px 0px #00075f;
 }
 
 
 
 #hero h2 {
-  color: #d2d2d2;
+  color: #ffffff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
