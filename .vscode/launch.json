@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoSimSityAppApplication<demo-simsityapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "co.gov.simsityapp.demo.DemoSimSityAppApplication",
+            "projectName": "demo-simsityapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
